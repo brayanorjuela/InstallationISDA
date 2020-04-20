@@ -1,0 +1,7 @@
+name: isda-env
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - sqlalchemy
