@@ -1,10 +1,12 @@
 # ISDA GitLab
 
-In diesem Repository befinden sich alle Übungsaufgaben, die im Laufe des Semester gestellt werden. 
+| Übungsthema  | Notebook Link |
+| ------------- | :-------------: |
+| Grundlagen in Python  | [Binder](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.tubit.tu-berlin.de%2Fdima%2FISDA-SS20.git/master?filepath=01_basics.ipynb)  |
 
-## Installation
+## Lokale Installation
 
-Für die Installation empfehlen wir allen die neuste Version von Anaconda zu verwenden. Zur Installation befolgt bitte
+Für die lokale Installation empfehlen wir die aktuellste Version von Anaconda und Python 3 zu verwenden. Zur Installation befolgt bitte
 die offizielle Anleitung entsprechend eures Betriebssystems:
 https://docs.anaconda.com/anaconda/install/
 
