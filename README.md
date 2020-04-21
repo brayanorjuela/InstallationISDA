@@ -15,8 +15,8 @@
 offizielle Anleitung entsprechend eures Betriebssystems gibt es hier:
 https://docs.anaconda.com/anaconda/install/
 
-4. Jupyter server starten.  
-    https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html
+4. Jupyter server starten:  
+    https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html   
     **Hinweis**: Achtet bitte darauf, dass Anaconda als standardmäßige Pythondistribution verwendet wird und initialisiert wurde. 
 
 5. Im geöffneten Jupyter-Browser die entsprechende *.ipynb Datei öffnen.
