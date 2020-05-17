@@ -22,6 +22,7 @@ ebenfalls hier in der Beschreibung.
 | ------------- | :-------------: |
 | Grundlagen in Python  | [Binder](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.tubit.tu-berlin.de%2Fdima%2FISDA-SS20.git/master?filepath=01_basics.ipynb)  |
 | (E)ER-Modellierung  | [Binder](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.tubit.tu-berlin.de%2Fdima%2FISDA-SS20.git/master?filepath=02_modellierung.ipynb)  |
+| Relationaler Entwurf  | [Binder](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.tubit.tu-berlin.de%2Fdima%2FISDA-SS20.git/master?filepath=03_relationaler-entwurf.ipynb)  |
 
 
 ## Lokale Installation
