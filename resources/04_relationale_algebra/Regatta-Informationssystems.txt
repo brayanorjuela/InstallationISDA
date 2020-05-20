@@ -1,0 +1,52 @@
+group: Regatta
+
+BOOTSKLASSE = {
+	KLASSE:string, BAUART:string
+	'Folkeboot'  , 'Holz'       
+	'H-Boot'     , 'GFK'        
+	'Optimist'   , 'GFK'        
+	'Pirat'      , 'Holz'       
+}
+
+WETTFAHRT = {
+	FAHRTNR:number, NAME:string            , DATUM:date , ZEIT:number
+	1             , 'Moorpokal'            , 2013-06-18 , 10         
+	2             , 'Herbstmeister'        , 2013-09-16 , 14         
+	3             , 'F. Huber Gedenk Preis', 2013-05-15 , 14         
+	4             , 'Blaues Band'          , 2013-05-29 , 10         
+}
+
+
+TEILNEHMER = {
+	SegelNr:string, Name:string, Bootsklasse:string, Baujahr:string, Farbe:string, Eigner:string
+	'GER 1393'    , 'Carla F.' , 'Folkeboot'       , '1972'        , 'Weiß'      , 'G.Gerhard'  
+	'GER 3876'    , 'No. Uno'  , 'Folkeboot'       , '1993'        , 'Rot'       , 'N. Nichts'  
+	'GER 3999'    , 'Willi'    , 'Optimist'        , '1989'        , 'Weiß'      , 'E. Ernst'   
+	'GER 4309'    , 'Elkche'   , 'H-Boot'          , '1981'        , 'Blau'      , 'M. Michel'  
+	'GER 4318'    , 'Marie'    , 'Pirat'           , '1992'        , 'Blau'      , 'D. Dummer'  
+	'GER 4833'    , 'Martha H.', 'H-Boot'          , '1994'        , 'Weiß'      , 'O. Otter'   
+	'GER 4995'    , 'Celeste'  , 'Pirat'           , '1991'        , 'Rot'       , 'S. Schott'  
+	'GER 5107'    , 'Windrose' , 'Optimist'        , '1987'        , 'Lila'      , 'V. Voelz'   
+	'GER 5503'    , 'Lisa'     , 'H-Boot'          , '1983'        , 'Grün'      , 'H. Hiller'  
+	'GER 5505'    , 'Pistensau', 'Optimist'        , '1993'        , 'Braun'     , 'F. Faser'   
+	'GER 5703'    , 'Grünspan' , 'Optimist'        , '1988'        , 'Grün'      , 'M. Meise'   
+}
+
+
+PLATZIERUNG = {
+	SEGELNR:string, WETTFAHRT:number, PLATZ:string
+	'GER 1393'    , 3               , '1'         
+	'GER 3876'    , 3               , '4'         
+	'GER 4309'    , 3               , '3'         
+	'GER 4318'    , 1               , '9'         
+	'GER 4318'    , 2               , '2'         
+	'GER 4833'    , 3               , 'dnf'       
+	'GER 4995'    , 1               , '2'         
+	'GER 4995'    , 2               , '1'         
+	'GER 5107'    , 4               , '1'         
+	'GER 5503'    , 3               , '2'         
+	'GER 5505'    , 4               , '3'         
+	'GER 5703'    , 4               , '2'         
+	'GER 4318'    , 3               , '5'         
+	'GER 4318'    , 4               , '4'         
+}
