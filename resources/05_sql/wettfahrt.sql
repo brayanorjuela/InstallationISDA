@@ -17,7 +17,7 @@ Zeit TIME NOT NULL,
 PRIMARY KEY(FahrtNr)
 );
 
-INSERT INTO Wettfahrt (FahrtNr, Name, Datum, Zeit) VALUES(1, 'Moorpokal', '2013-06-18', '10:00:00'), (2, 'Herbstmeister', '2013-09-16', '14:00:00'), (3, 'Franz Huber Gedenk Preis', '2013-05-15', '14:00:00'),(4, 'Blaues Band', '2013-05-29', '10:00:00');
+INSERT INTO Wettfahrt (FahrtNr, Name, Datum, Zeit) VALUES(1, 'Moorpokal', '2003-06-18', '10:00:00'), (2, 'Herbstmeister', '2003-09-16', '14:00:00'), (3, 'Franz Huber Gedenk Preis', '2003-05-15', '14:00:00'),(4, 'Blaues Band', '2003-05-29', '10:00:00');
 
 CREATE TABLE Teilnehmer (
   SegelNr CHAR(8) NOT NULL PRIMARY KEY,
